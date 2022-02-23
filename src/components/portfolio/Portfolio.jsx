@@ -56,6 +56,7 @@ export default function Portfolio() {
         {list.map((item) => (
           <PortfolioList
             title={item.title}
+            link={item.link}
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
@@ -67,9 +68,9 @@ export default function Portfolio() {
           <div className="item">
             <img
               src={d.img}
-              alt=""
+              alt="img"
             />
-            <h3>{d.title}</h3>
+            <h3><a className="link" href={d.link} alt="link" target="_blank" rel=" noopener noreferrer">{d.title}</a></h3>
           </div>
         ))}
       </div>

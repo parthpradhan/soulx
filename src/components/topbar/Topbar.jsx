@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { GitHub, Mail ,Instagram,LinkedIn,YouTube} from "@material-ui/icons";
+import { GitHub, Mail ,Instagram,LinkedIn,Pinterest} from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -22,8 +22,8 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span>LinkedIn</span>
             </div>
             <div className="itemContainer">
-            <a href="https://www.youtube.com/channel/UCFAOx2wRuWGHYNYpOTKc3_A" target="_blank" rel=" noopener noreferrer" alt="youtube"><YouTube className="icon" /></a>
-            <span>Youtube</span>
+            <a href="https://in.pinterest.com/TheParthPradhan/_created/" target="_blank" rel=" noopener noreferrer" alt="pinterest"><Pinterest className="icon" /></a>
+            <span>Pinterest</span>
           </div>
           <div className="itemContainer">
             <Mail className="icon" />
