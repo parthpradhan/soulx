@@ -126,7 +126,7 @@ export const featuredPortfolio = [
       id: 1,
       title: "Alexir",
       img: "https://i.pinimg.com/564x/06/e2/e0/06e2e092cfcef492ed8563bbaa1dcf8b.jpg",
-      link:"#intro",
+      link:"https://parthpradhan.github.io/alexir",
     },
     {
       id: 2,
